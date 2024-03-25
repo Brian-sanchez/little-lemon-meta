@@ -1,2 +1,2 @@
-# little-lemon-meta
-Trabajo final del curso HTML y CSS en profundidad - Meta
+# HTML y CSS en profundidad - Meta
+Trabajo final del curso, tema elegido: Little Lemon
