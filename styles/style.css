@@ -17,6 +17,11 @@ h2 {
   font-size: 2.3rem;
 }
 
+hr {
+  margin-top: -1.4rem;
+  margin-bottom: 1rem;
+}
+
 p {
   font-weight: 400;
   font-size: 1.3rem;
@@ -76,6 +81,7 @@ article {
 
 article img {
   max-width: 100%;
+  border-radius: 2rem;
 }
 
 article ul {
@@ -102,28 +108,10 @@ main article {
   padding-right: 1rem;
 }
 
-#promotion {
-  background-image: url("../assets/promotion-banner.jpg");
-  background-size: cover;
-  background-position: center;
-  color: #ffffff;
-  text-align: left;
-}
-
-#promotion h1 {
-  margin-right: 2rem;
-  font-weight: 600;
-  font-size: 80px;
-}
-
-#promotion p {
-  max-width: 100%;
-  padding-right: 25%;
-}
-
 footer {
   margin: 1rem;
   display: flex;
+  padding-top: 2rem;
   gap: 2rem 1rem;
 }
 
@@ -143,4 +131,25 @@ footer p {
 
 footer div {
   flex: 1;
+}
+
+/* Styles by IDs */
+
+#promotion {
+  background-image: url("../assets/promotion-banner.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  text-align: left;
+}
+
+#promotion h1 {
+  margin-right: 2rem;
+  font-weight: 600;
+  font-size: 80px;
+}
+
+#promotion p {
+  max-width: 100%;
+  padding-right: 25%;
 }
