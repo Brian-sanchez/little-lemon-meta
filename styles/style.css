@@ -111,7 +111,7 @@ main article {
 footer {
   margin: 1rem;
   display: flex;
-  padding-top: 2rem;
+  padding-top: 3rem;
   gap: 2rem 1rem;
 }
 
@@ -119,14 +119,10 @@ footer img {
   max-width: 50%;
 }
 
-footer p {
-  border-top: #333333;
+footer hr {
+  color: #333333;
   border-style: solid;
   border-width: 0.1rem;
-  border-bottom: none;
-  border-left: none;
-  border-right: none;
-  text-align: right;
 }
 
 footer div {
@@ -152,4 +148,8 @@ footer div {
 #promotion p {
   max-width: 100%;
   padding-right: 25%;
+}
+
+#lemon-copyright {
+  text-align: right;
 }
